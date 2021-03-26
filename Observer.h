@@ -6,12 +6,12 @@
 #define TAREA_EXTRACLASE_II_OBSERVER_H
 
 
+
 class Observer {
 
 public:
     virtual void Notify() = 0;
 
 };
-
 
 #endif //TAREA_EXTRACLASE_II_OBSERVER_H

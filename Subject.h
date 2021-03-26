@@ -11,6 +11,10 @@
 
 using namespace std;
 
+
+/**
+ * observed object
+ */
 class Subject {
 
 public:
