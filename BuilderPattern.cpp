@@ -27,6 +27,7 @@ public:
     }
 
     void show() {
+        cout << "Computer Builder Design Pattern" << endl;
         cout << "Computer Type: " << computer << endl;
         cout << "Components Type: " << componets << endl;
         cout << "Motherboard Type: "<< motherboard << endl << endl;
