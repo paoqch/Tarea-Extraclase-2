@@ -77,15 +77,3 @@ public:
     }
 };
 
-int main() {
-
-    Director dir;
-    GamingPCBuilder lb;
-
-    Computer *gamingPC= dir.createComputer(&lb);
-
-    gamingPC->show();
-    delete gamingPC;
-
-    return 0;
-}
